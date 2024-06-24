@@ -47,7 +47,7 @@ public class Analysis
             var priceRecord = priceList.Find(p => p.SubscriptionName == subscription);
             if (priceRecord != null)
             {
-                decimal price = priceRecord.Price;
+                decimal price = priceRecord.Pricef;
                 Console.WriteLine(price);
                 totalCost += price;
             }
@@ -60,5 +60,5 @@ public class Analysis
 public class Price
 {
     public string SubscriptionName { get; set; }
-    public decimal Price { get; set; }
+    public decimal Pricef { get; set; }
 }
