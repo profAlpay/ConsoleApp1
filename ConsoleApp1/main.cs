@@ -29,7 +29,7 @@ public static class Programf
 
     static void SaveUser(string username, string password, string filename = "users.csv")
     {
-        string path = "D:\\c#yeni\\ConsoleApp1\\ConsoleApp1\\";
+        string path = "C:\\Users\\KEREM\\source\\repos\\ConsoleApp1\\ConsoleApp1\\";
         
 
         using (var writer = new StreamWriter(path + filename, true))
